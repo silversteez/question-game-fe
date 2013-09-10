@@ -1,6 +1,7 @@
 'use strict';
 
-angular.module('myTestAppApp', [])
+angular.module('questionApp', [])
+  .constant('serverRoute', 'http://localhost:3000')
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
